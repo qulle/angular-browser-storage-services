@@ -1,1 +1,45 @@
-Angular Browser Storage Services
+<div class="app">
+    <h1 class="app__header">Angular Browser Storage Services</h1>
+
+    <div class="app__section">
+        <h3 class="app__header">Local Storage</h3>
+        <p class="app__description">Check the browser console for output</p>
+
+        <button class="app-button app-button--primary" (click)="getLocalStorageValue()">
+            Get User Value
+        </button>
+        <button class="app-button app-button--primary" (click)="setLocalStorageValue()">
+            Set User Value
+        </button>
+        <button class="app-button app-button--primary" (click)="removeLocalStorageValue()">
+            Remove User Value
+        </button>
+        <button class="app-button app-button--primary" (click)="clearLocalStorage()">
+            Clear Values
+        </button>
+        <button class="app-button app-button--primary" (click)="getLocalStorageSize()">
+            Number Of Values
+        </button>
+    </div>
+
+    <div class="app__section">
+        <h3 class="app__header">Session Storage</h3>
+        <p class="app__description">Check the browser console for output</p>
+
+        <button class="app-button app-button--primary" (click)="getSessionStorageValue()">
+            Get User Value
+        </button>
+        <button class="app-button app-button--primary" (click)="setSessionStorageValue()">
+            Set User Value
+        </button>
+        <button class="app-button app-button--primary" (click)="removeSessionStorageValue()">
+            Remove User Value
+        </button>
+        <button class="app-button app-button--primary" (click)="clearSessionStorage()">
+            Clear Values
+        </button>
+        <button class="app-button app-button--primary" (click)="getSessionStorageSize()">
+            Number Of Values
+        </button>
+    </div>
+</div>
